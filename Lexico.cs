@@ -193,7 +193,7 @@ namespace LYA1_Lexico2
                         estado = F;
                     case 25:
                     setClasificificacion(Tipos.Cadena);
-                        estado = 26;    /////7
+                        estado = 26;    /////
                     case 26:
                     setClasificificacion(Tipos.Cadena);
                         estado = F;          ///////
