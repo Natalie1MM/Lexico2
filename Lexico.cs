@@ -218,4 +218,3 @@ namespace LYA1_Lexico2
             return archivo.EndOfStream;
         }
     }
-}
