@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.IO;
 
-namespace LYA1_Lexico2
+namespace lexii2
 {
     public class Lexico : Token, IDisposable
     {
