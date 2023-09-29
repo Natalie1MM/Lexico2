@@ -69,14 +69,12 @@ namespace lexii2
                             estado = 16;
                         else if (c == '<')
                             estado = 17;
-                        else if (c == '=' || c == '>=')
+                        else if (c == '=' || c == '>')
                             estado = 18;
-                        else if (c == '*')
+                        else if (c == '+')
                             estado = 19;
                         else if (c == '-')
                             estado = 20;
-                        else if (c == '+=' || c == '-=')
-                            estado = 21;
                         else if (c == '*' || c == '/' || c == '%')
                             estado = 22;
                         else if (c == '=')
@@ -87,7 +85,7 @@ namespace lexii2
                             estado = 25;   //////
                         else if (c == '"')
                             estado = 26;    //////
-                        else if (c == '')
+                        else
                             estado = 27;
                         break;
                     case 1:
@@ -245,8 +243,9 @@ namespace lexii2
             setContenido(buffer);
             log.WriteLine(getContenido() + " = " + getClasificacion());
         }
-        public bool FinArchivo()
-        {
-            return archivo.EndOfStream;
-        }
     }
+    public bool FinArchivo()
+    {
+        return archivo.EndOfStream;
+    }
+ }
