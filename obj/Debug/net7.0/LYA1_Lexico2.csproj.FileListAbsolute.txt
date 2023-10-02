@@ -1,0 +1,14 @@
+C:\Users\Natalie M\OneDrive\Documentos\LYA1_Lexico2\obj\Debug\net7.0\LYA1_Lexico2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Natalie M\OneDrive\Documentos\LYA1_Lexico2\obj\Debug\net7.0\LYA1_Lexico2.AssemblyInfoInputs.cache
+C:\Users\Natalie M\OneDrive\Documentos\LYA1_Lexico2\obj\Debug\net7.0\LYA1_Lexico2.AssemblyInfo.cs
+C:\Users\Natalie M\OneDrive\Documentos\LYA1_Lexico2\obj\Debug\net7.0\LYA1_Lexico2.csproj.CoreCompileInputs.cache
+C:\Users\Natalie M\OneDrive\Documentos\LYA1_Lexico2\bin\Debug\net7.0\LYA1_Lexico2.exe
+C:\Users\Natalie M\OneDrive\Documentos\LYA1_Lexico2\bin\Debug\net7.0\LYA1_Lexico2.deps.json
+C:\Users\Natalie M\OneDrive\Documentos\LYA1_Lexico2\bin\Debug\net7.0\LYA1_Lexico2.runtimeconfig.json
+C:\Users\Natalie M\OneDrive\Documentos\LYA1_Lexico2\bin\Debug\net7.0\LYA1_Lexico2.dll
+C:\Users\Natalie M\OneDrive\Documentos\LYA1_Lexico2\bin\Debug\net7.0\LYA1_Lexico2.pdb
+C:\Users\Natalie M\OneDrive\Documentos\LYA1_Lexico2\obj\Debug\net7.0\LYA1_Lexico2.dll
+C:\Users\Natalie M\OneDrive\Documentos\LYA1_Lexico2\obj\Debug\net7.0\refint\LYA1_Lexico2.dll
+C:\Users\Natalie M\OneDrive\Documentos\LYA1_Lexico2\obj\Debug\net7.0\LYA1_Lexico2.pdb
+C:\Users\Natalie M\OneDrive\Documentos\LYA1_Lexico2\obj\Debug\net7.0\LYA1_Lexico2.genruntimeconfig.cache
+C:\Users\Natalie M\OneDrive\Documentos\LYA1_Lexico2\obj\Debug\net7.0\ref\LYA1_Lexico2.dll

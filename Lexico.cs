@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.IO;
 
-namespace lexii2
+namespace LYA1_Lexico2
 {
     public class Lexico : Token, IDisposable
     {
@@ -144,92 +144,109 @@ namespace lexii2
                             estado = F;
                         break;
                     case 9:
-                        setClasificificacion(Tipos.OpRelacional);
+                        setClasificacion(Tipos.OperadorRelacional);
                         estado = F;
                         break;
                     case 10:
-                        setClasificificacion(Tipos.FindeSentencia);
+                        setClasificacion(Tipos.FinSentencia);
                         estado = F;
                         break;
                     case 11:
-                        setClasificificacion(Tipos.Caracter);
+                        setClasificacion(Tipos.Caracter);
                         if (c == '&')
                             estado = 14;
                         else
                             estado = F;
                         break;
                     case 12:
-                        setClasificificacion(Tipos.Caracter);
+                        setClasificacion(Tipos.Caracter);
                         if (c == '|')
                             estado = 14;
                         else
                             estado = F;
+                        break;
                     case 13:
-                        setClasificificacion(Tipos.OpLogico);
+                        setClasificacion(Tipos.OperadorLogico);
                         if (c == '=')
                             estado = 15;
                         else
                             estado = F;
+                        break;
                     case 14:
-                        setClasificificacion(Tipos.OpLogico);
+                        setClasificacion(Tipos.OperadorLogico);
                         estado = F;
+                        break;
                     case 15:
-                        setClasificificacion(Tipos.OpRelacional);
+                        setClasificacion(Tipos.OperadorRelacional);
                         estado = F;
+                        break;
                     case 16:
-                        setClasificificacion(Tipos.OpRelacional);
+                        setClasificacion(Tipos.OperadorRelacional);
                         if (c == '=')
                             estado = 18;
+
                         else
                             estado = F;
+                        break;
                     case 17:
-                        setClasificificacion(Tipos.OpRelacional);
+                        setClasificacion(Tipos.OperadorRelacional);
                         if (c == '>' || c == '=')
                             estado = 18;
                         else
                             estado = F;
+                        break;
                     case 18:
-                        setClasificificacion(Tipos.OpRelacional);
+                        setClasificacion(Tipos.OperadorRelacional);
                         estado = F;
+                        break;
                     case 19:
-                        setClasificificacion(Tipos.OpTermino);
+                        setClasificacion(Tipos.OperadorTermino);
                         if (c == '=' || c == '+')
                             estado = 21;
                         else
                             estado = F;
+                        break;
                     case 20:
-                        setClasificificacion(Tipos.OpTermino);
+                        setClasificacion(Tipos.OperadorTermino);
                         if (c == '=' || c == '-')
                             estado = 21;
                         else
                             estado = F;
+                        break;
                     case 21:
-                        setClasificificacion(Tipos.IncTermino);
+                        setClasificacion(Tipos.IncrementoTermino);
                         estado = F;
+                        break;
                     case 22:
-                        setClasificificacion(Tipos.OpFactor);
+                        setClasificacion(Tipos.OperadorFactor);
                         if (c == '=')
                             estado = 23;
                         else
                             estado = F;
+                        break;
                     case 23:
-                        setClasificificacion(Tipos.OpFactor);
+                        setClasificacion(Tipos.OperadorFactor);
                         estado = F;
+                        break;
                     case 24:
-                        setClasificificacion(Tipos.OpTernario);
+                        setClasificacion(Tipos.OperadorTernario);
                         estado = F;
+                        break;
                     case 25:
-                        setClasificificacion(Tipos.Cadena);
+                        setClasificacion(Tipos.cadena);
                         if (c == '"')
                             estado = 26;
                         else if (FinArchivo())
                             estado = E;
+                        break;
                     case 26:
-                        setClasificificacion(Tipos.Cadena);
+                        setClasificacion(Tipos.cadena);
                         estado = F;
+                        break;
                     case 27:
-                        setClasificificacion(Tipos.Caracter);
+                        setClasificacion(Tipos.Caracter);
                         estado = F;
+                        break;
                 }
                 if (estado >= 0)
                 {
@@ -243,9 +260,9 @@ namespace lexii2
             setContenido(buffer);
             log.WriteLine(getContenido() + " = " + getClasificacion());
         }
+        public bool FinArchivo()
+        {
+            return archivo.EndOfStream;
+        }
     }
-    public bool FinArchivo()
-    {
-        return archivo.EndOfStream;
-    }
- }
+}

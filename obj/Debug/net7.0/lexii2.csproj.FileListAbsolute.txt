@@ -1,4 +1,0 @@
-C:\Users\Natalie M\OneDrive\Documentos\lexii2\obj\Debug\net7.0\lexii2.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Natalie M\OneDrive\Documentos\lexii2\obj\Debug\net7.0\lexii2.AssemblyInfoInputs.cache
-C:\Users\Natalie M\OneDrive\Documentos\lexii2\obj\Debug\net7.0\lexii2.AssemblyInfo.cs
-C:\Users\Natalie M\OneDrive\Documentos\lexii2\obj\Debug\net7.0\lexii2.csproj.CoreCompileInputs.cache
