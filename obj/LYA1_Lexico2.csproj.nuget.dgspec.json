@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Natalie M\\OneDrive\\Documentos\\LYA1_Lexico2\\LYA1_Lexico2.csproj": {}
+    "C:\\Users\\Natalie M\\OneDrive\\Documentos\\LYA1_Lexico2\\LYA1_Lexico2.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Natalie M\\OneDrive\\Documentos\\LYA1_Lexico2\\LYA1_Lexico2.csproj": {
+    "C:\\Users\\Natalie M\\OneDrive\\Documentos\\LYA1_Lexico2\\LYA1_Lexico2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Natalie M\\OneDrive\\Documentos\\LYA1_Lexico2\\LYA1_Lexico2.csproj",
+        "projectUniqueName": "C:\\Users\\Natalie M\\OneDrive\\Documentos\\LYA1_Lexico2\\LYA1_Lexico2.csproj",
         "projectName": "LYA1_Lexico2",
-        "projectPath": "c:\\Users\\Natalie M\\OneDrive\\Documentos\\LYA1_Lexico2\\LYA1_Lexico2.csproj",
+        "projectPath": "C:\\Users\\Natalie M\\OneDrive\\Documentos\\LYA1_Lexico2\\LYA1_Lexico2.csproj",
         "packagesPath": "C:\\Users\\Natalie M\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Natalie M\\OneDrive\\Documentos\\LYA1_Lexico2\\obj\\",
+        "outputPath": "C:\\Users\\Natalie M\\OneDrive\\Documentos\\LYA1_Lexico2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Natalie M\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -34,4 +34,5 @@ x26 = Identificador
 "Hola mundo" = cadena
 { = Caracter
 } = Caracter
-" = cadena
++ = OperadorTermino
+￿ = Caracter
